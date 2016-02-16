@@ -1,7 +1,7 @@
 # Blog-Scraper
 A software package for analyzing and downloading Blogger profiles, blogs and posts.
 
-                      February 15, 2016
+                          February 15, 2016
 
                          Konstantinos Pappas
               Language and Information Technologies
@@ -37,15 +37,15 @@ The src/main/java/scraper/scr package contains three classes, each containing an
 
 2. HOW TO USE BLOG-SCRAPPER
 
-STEP 0
+**STEP 0**
 
 Before running any of the code make sure that the MySQL database is set up by executing the statements in the "create.sql" file.
 
-STEP 1
+**STEP 1**
 
 First, execute the ScrapeSearchPageByLocation.java file. This will create a text file with Blogger profile urls. Before running this code, make sure you have inserted an appropriate file path on lines 40 and 41.
 
-STEP 2
+**STEP 2**
 
 Next, execute the ScrapeProfiles.java file. This code will read the profile urls identified in Step 0, download, analyze the profile elements of a Blogger user, and retrieve all associated blog urls. Finally, it will insert this information in the MySQL dataset in the profiles table.
 
@@ -53,7 +53,7 @@ Before running this code, make sure you have inserted appropriate values in line
 
 Note that this program will download 90 profiles per half an hour therefore, please allow adequate time for all the profiles to be downloaded.
 
-STEP 3
+**STEP 3**
 
 Finally, execute the ScrapeBlogs.java file. This code will read all the blog urls from the MySQL database which do not contain any associated post yet, and download their associated posts.
 
