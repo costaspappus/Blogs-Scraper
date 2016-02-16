@@ -43,11 +43,11 @@ Before running any of the code make sure that the MySQL database is set up by ex
 
 **STEP 1**
 
-First, execute the ScrapeSearchPageByLocation.java file. This will create a text file with Blogger profile urls. Before running this code, make sure you have inserted an appropriate file path on lines 40 and 41.
+First, execute the `ScrapeSearchPageByLocation.java` file. This will create a text file with Blogger profile urls. Before running this code, make sure you have inserted an appropriate file path on lines 40 and 41.
 
 **STEP 2**
 
-Next, execute the ScrapeProfiles.java file. This code will read the profile urls identified in Step 0, download, analyze the profile elements of a Blogger user, and retrieve all associated blog urls. Finally, it will insert this information in the MySQL dataset in the profiles table.
+Next, execute the `ScrapeProfiles.java` file. This code will read the profile urls identified in Step 0, download, analyze the profile elements of a Blogger user, and retrieve all associated blog urls. Finally, it will insert this information in the MySQL dataset in the profiles table.
 
 Before running this code, make sure you have inserted appropriate values in lines 26-32.
 
@@ -55,7 +55,7 @@ Note that this program will download 90 profiles per half an hour therefore, ple
 
 **STEP 3**
 
-Finally, execute the ScrapeBlogs.java file. This code will read all the blog urls from the MySQL database which do not contain any associated post yet, and download their associated posts.
+Finally, execute the `ScrapeBlogs.java` file. This code will read all the blog urls from the MySQL database which do not contain any associated post yet, and download their associated posts.
 
 Before running this code, make sure you have inserted appropriate values in lines 29, 32, and 38.
 
