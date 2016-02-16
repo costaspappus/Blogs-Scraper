@@ -18,28 +18,28 @@ CONTENTS
 
 ===========================
 
-1. INTRODUCTION
+## INTRODUCTION
 
 This software package can be used to analyze and download Blogger profiles, blogs and associated posts. The data is broken down into parts (e.g. user gender, blog title etc.) and stored in respective MySQL database tables/columns.
 
 ===========================
 
-2. CODE
+## CODE
 
-The software is organized as a Maven project with all dependencies listed in the pom.xml file. The resources folder include the "create.sql" file which contains the statements that can create the corresponding MySQL datase schema.
+The software is organized as a Maven project with all dependencies listed in the pom.xml file. The resources folder include the `create.sql` file which contains the statements that can create the corresponding MySQL datase schema.
 
 
-The src/main/java/dal package includes the model classes of the Blogger data. Each class in this package corresponds to a MySQL tables in the database.
+The `src/main/java/dal` package includes the model classes of the Blogger data. Each class in this package corresponds to a MySQL tables in the database.
 
-The src/main/java/scraper/scr package contains three classes, each containing an independent main function.
+The `src/main/java/scraper/scr` package contains three classes, each containing an independent main function.
 
 ===========================
 
-3. HOW TO USE BLOG-SCRAPPER
+## HOW TO USE BLOG-SCRAPPER
 
 **STEP 0**
 
-Before running any of the code make sure that the MySQL database is set up by executing the statements in the "create.sql" file.
+Before running any of the code make sure that the MySQL database is set up by executing the statements in the `create.sql` file.
 
 **STEP 1**
 
