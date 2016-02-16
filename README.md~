@@ -1,4 +1,4 @@
-# Blog-Scraper
+# Blogs-Scraper
 A software package for analyzing and downloading Blogger profiles, blogs and posts.
 
                       February 15, 2016
@@ -13,7 +13,7 @@ CONTENTS
 
 1. Introduction
 2. Code
-3. How to use Blog-Scrapper
+3. How to use EthnolingClasses
 
 
 ===========================
@@ -27,14 +27,5 @@ This software package can be used to analyze and download Blogger profiles, blog
 2. CODE
 
 The software is organized as a Maven project with all dependencies listed in the pom.xml file. The resources folder include the "create.sql" file which contains the statements that can create the corresponding MySQL datase schema.
-
-
-The src/main/java/dal package includes the model classes of the Blogger data. Each class in this package corresponds to a MySQL tables in the database.
-
-The src/main/java/scraper/scr package contains three classes, each containing an independent main function.
-
-===========================
-
-2. HOW TO USE BLOG-SCRAPPER
 
 
