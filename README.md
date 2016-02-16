@@ -35,7 +35,7 @@ The src/main/java/scraper/scr package contains three classes, each containing an
 
 ===========================
 
-2. HOW TO USE BLOG-SCRAPPER
+3. HOW TO USE BLOG-SCRAPPER
 
 **STEP 0**
 
